@@ -1,0 +1,18 @@
+a {
+    color : #E56F3D;
+    text-decoration: none;
+}
+
+#pic {
+
+    display : block;
+    margin-right :auto;
+    margin-left: auto;
+    margin-bottom : auto;
+    margin-top : 16%;
+}
+
+#lower {
+    font-family : sans-serif;
+    text-align : center;
+}
