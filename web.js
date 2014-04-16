@@ -10,6 +10,6 @@ server.listen(port, function(){
 });
 
 app.get("*", function(request, response){
-    response.sendfile(__dirname + 'public/index.html')
+    response.sendfile('public/index.html')
     console.log("page loaded");
 });
