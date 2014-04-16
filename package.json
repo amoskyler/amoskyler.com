@@ -1,0 +1,28 @@
+{
+  "name": "amoskyler.com",
+  "version": "0.0.0",
+  "description": "Website for all things me",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amoskyler/amoskyler.com.git"
+  },
+  "keywords": [
+    "Amos",
+    "kyler"
+  ],
+  "author": "Amos Kyler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amoskyler/amoskyler.com/issues"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "^4.0.0"
+  }
+}
