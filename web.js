@@ -9,7 +9,7 @@ server.listen(port, function(){
 });
 //app.get commit
 app.get("/resume", function(request, response){
-  response.sendFile('public/resume.html');
+  response.sendfile('public/resume.html');
   console.log("resume page loaded");
 });
 
