@@ -17,3 +17,8 @@ app.get("*/resume", function(request, response){
   response.sendFile('public/resume.html');
   console.log("resume page loaded");
 });
+
+app.get("/logo", function(request, response){
+  response.sendFile('public/img/logo.png');
+  console.log('logo requested');
+});
