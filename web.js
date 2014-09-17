@@ -7,15 +7,16 @@ var port = Number(process.env.PORT || 5000);
 server.listen(port, function(){
     console.log("listening on " + port);
 });
-//app.get commit
+
+
 app.get("/resume", function(request, response){
-  response.sendfile('public/resume.html');
+  response.sendfile('public/resume.htm');
   console.log("resume page loaded");
 });
 
 app.get("/logo", function(request, response){
-  response.sendFile('public/img/logo.png');
-  console.log('logo requested');
+  response.sendfile('public/img/logo.png');
+  console.log("logo page loaded");
 });
 //catch all
 app.get("*", function(request, response){
