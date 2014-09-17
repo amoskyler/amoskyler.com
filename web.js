@@ -9,6 +9,11 @@ server.listen(port, function(){
 });
 //app.get commit
 app.get("*", function(request, response){
-    response.sendfile('public/index.html')
+    response.sendfile('public/index.html');
     console.log("page loaded");
+});
+
+app.get("*", function(request, response){
+  response.sendFile('public/resume.html');
+  console.log("resume page loaded");
 });
