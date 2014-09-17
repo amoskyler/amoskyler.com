@@ -13,7 +13,7 @@ app.get("/", function(request, response){
     console.log("page loaded");
 });
 
-app.get("*/resume", function(request, response){
+app.get("/resume", function(request, response){
   response.sendFile('public/resume.html');
   console.log("resume page loaded");
 });
