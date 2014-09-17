@@ -8,7 +8,7 @@ server.listen(port, function(){
     console.log("listening on " + port);
 });
 //app.get commit
-app.get("*", function(request, response){
+app.get("/", function(request, response){
     response.sendfile('public/index.html');
     console.log("page loaded");
 });
